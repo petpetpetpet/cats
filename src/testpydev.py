@@ -5,7 +5,7 @@ import socket
 import re
 import threading
 from Queue import Queue
-
+#C:\Python27\python.exe -u C:\Users\chris\Documents\GitHub\Pydev\plugins\org.python.pydev.core\pysrc\pydevd.py --multiprocess --print-in-debugger-startup --vm_type python --client 127.0.0.1 --port 64974 --file C:\Users\chris\runtime-EclipseApplication\test\src\cats.py
 class SocketReader(threading.Thread):
 
     def __init__(self, s, q):
